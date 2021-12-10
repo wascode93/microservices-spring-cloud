@@ -9,8 +9,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=product-service \
---package-name=se.magnus.microservices.core.product \
---groupId=se.magnus.microservices.core.product \
+--package-name=com.wascode.microservices.core.product \
+--groupId=com.wascode.microservices.core.product \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 product-service
@@ -21,8 +21,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=review-service \
---package-name=se.magnus.microservices.core.review \
---groupId=se.magnus.microservices.core.review \
+--package-name=com.wascode.microservices.core.review \
+--groupId=com.wascode.microservices.core.review \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 review-service
@@ -33,8 +33,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=recommendation-service \
---package-name=se.magnus.microservices.core.recommendation \
---groupId=se.magnus.microservices.core.recommendation \
+--package-name=com.wascode.microservices.core.recommendation \
+--groupId=com.wascode.microservices.core.recommendation \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 recommendation-service
@@ -45,8 +45,8 @@ spring init \
 --java-version=1.8 \
 --packaging=jar \
 --name=product-composite-service \
---package-name=se.magnus.microservices.composite.product \
---groupId=se.magnus.microservices.composite.product \
+--package-name=com.wascode.microservices.composite.product \
+--groupId=com.wascode.microservices.composite.product \
 --dependencies=actuator,webflux \
 --version=1.0.0-SNAPSHOT \
 product-composite-service
