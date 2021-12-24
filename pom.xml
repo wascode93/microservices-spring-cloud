@@ -18,6 +18,7 @@
 		<module>microservices/recommendation-service</module>
 		<module>microservices/review-service</module>
 		<module>api</module>
+		<module>util</module>
 	</modules>
 
 	<dependencies>
