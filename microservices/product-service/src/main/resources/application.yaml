@@ -1,0 +1,5 @@
+server.port: 7001
+logging:
+  level:
+    root: info
+    com.wascode.microservices: debug
