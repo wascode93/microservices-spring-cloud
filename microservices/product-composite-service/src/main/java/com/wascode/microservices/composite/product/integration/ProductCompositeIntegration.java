@@ -48,14 +48,9 @@ public class ProductCompositeIntegration implements ProductApi, RecommendationAp
     this.productServiceUrl = HTTP + productServiceHost + ":" + productServicePort + "/product/";
 
     this.recommendationServiceUrl =
-        HTTP
-            + recommendationServiceHost
-            + ":"
-            + recommendationServicePort
-            + "/recommendation?productId=";
+        HTTP + recommendationServiceHost + ":" + recommendationServicePort + "/recommendation";
 
-    this.reviewServiceUrl =
-        HTTP + reviewServiceHost + ":" + reviewServicePort + "/review?productId=";
+    this.reviewServiceUrl = HTTP + reviewServiceHost + ":" + reviewServicePort + "/review";
   }
 
   @Override

@@ -12,4 +12,13 @@ public class Review {
   private final String subject;
   private final String content;
   private final String serviceAddress;
+
+  public Review() {
+    this.productId = 0;
+    this.reviewId = 0;
+    this.author = null;
+    this.subject = null;
+    this.content = null;
+    this.serviceAddress = null;
+  }
 }
