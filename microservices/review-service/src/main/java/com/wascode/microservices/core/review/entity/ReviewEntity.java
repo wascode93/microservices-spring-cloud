@@ -8,7 +8,9 @@ import javax.persistence.*;
 @Getter
 @Setter
 @Entity
-@Table(name = "reviews")
+@Table(
+    name = "reviews",
+    indexes = {@Index(name = "prod-rev-id", unique = true, columnList = "productId,reviewId")})
 public class ReviewEntity {
 
   @Id @GeneratedValue private int id;
